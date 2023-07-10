@@ -1,0 +1,50 @@
+-- Ejemplo 1
+DECLARE
+  v1 CHAR(1);
+BEGIN
+  v1 := 'B';
+
+  CASE v1
+    WHEN 'A' THEN DBMS_OUTPUT.PUT_LINE('Excellent');
+    WHEN 'B' THEN DBMS_OUTPUT.PUT_LINE('Very Good');
+    WHEN 'C' THEN DBMS_OUTPUT.PUT_LINE('Good');
+    WHEN 'D' THEN DBMS_OUTPUT.PUT_LINE('Fair');
+    WHEN 'F' THEN DBMS_OUTPUT.PUT_LINE('Poor');
+    ELSE DBMS_OUTPUT.PUT_LINE('No such value');
+  END CASE;
+END;
+/
+
+-- Ejemplo 2
+DECLARE
+  v1 NUMBER;
+BEGIN
+  v1 := 50;
+
+  CASE v1
+    WHEN 10 THEN DBMS_OUTPUT.PUT_LINE('Excellent');
+    WHEN 20 THEN DBMS_OUTPUT.PUT_LINE('Very Good');
+    WHEN 30 THEN DBMS_OUTPUT.PUT_LINE('Good');
+    WHEN 40 THEN DBMS_OUTPUT.PUT_LINE('Fair');
+    WHEN 50 THEN DBMS_OUTPUT.PUT_LINE('Poor');
+    ELSE DBMS_OUTPUT.PUT_LINE('No such value');
+  END CASE;
+END;
+/
+
+-- Ejemplo 3
+DECLARE
+  v1 VARCHAR2(20);
+BEGIN
+  v1 := 'Fair';
+
+  CASE v1
+    WHEN 'Excellent' THEN DBMS_OUTPUT.PUT_LINE('A');
+    WHEN 'Very Good' THEN DBMS_OUTPUT.PUT_LINE('B');
+    WHEN 'Good' THEN DBMS_OUTPUT.PUT_LINE('C');
+    WHEN 'Fair' THEN DBMS_OUTPUT.PUT_LINE('D');
+    WHEN 'Poor' THEN DBMS_OUTPUT.PUT_LINE('E');
+    ELSE DBMS_OUTPUT.PUT_LINE('No such value');
+  END CASE;
+END;
+/

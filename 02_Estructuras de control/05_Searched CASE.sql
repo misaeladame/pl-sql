@@ -1,0 +1,16 @@
+SET SERVEROUTPUT ON
+
+DECLARE
+  bonus NUMBER;
+BEGIN
+  bonus := 100;
+  CASE
+    WHEN bonus > 500 THEN DBMS_OUTPUT.PUT_LINE('Excellent');
+    WHEN bonus <= 500 AND bonus > 250 THEN DBMS_OUTPUT.PUT_LINE('Very Good');
+    WHEN bonus <= 250 AND bonus > 100 THEN DBMS_OUTPUT.PUT_LINE('Good');
+    ELSE DBMS_OUTPUT.PUT_LINE('POOR!!!');
+  END CASE;
+END;
+/
+
+-- SEARCHED CASE
