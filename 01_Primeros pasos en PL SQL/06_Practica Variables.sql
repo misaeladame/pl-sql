@@ -39,6 +39,7 @@ BEGIN
 
   DBMS_OUTPUT.PUT_LINE(SUMA);
 END;
+/
 
 /*
 3.- Modificar el ejemplo anterior y ponemos null como valor de una de las variables ¿Qué resultado arroja? Volvemos a ponerla un valor numérico
@@ -56,6 +57,7 @@ BEGIN
 
   DBMS_OUTPUT.PUT_LINE(SUMA);
 END;
+/
 
 /* Arroja un resultado nulo al colocar una de las variables como null */
 
@@ -78,6 +80,7 @@ BEGIN
 
   DBMS_OUTPUT.PUT_LINE(SUMA);
 END;
+/
 /* No es posible modificar la constante */
 
 
