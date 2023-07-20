@@ -7,6 +7,7 @@ PRACTICA 1
   • Por ejemplo MOD(10,4) nos devuelve el resto de dividir 10 por 4.
 
 */
+SET SERVEROUTPUT ON;
 
 DECLARE
   x NUMBER := 10;

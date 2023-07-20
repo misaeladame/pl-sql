@@ -1,4 +1,6 @@
 -- Ejemplo 1
+SET SERVEROUTPUT ON;
+
 DECLARE
   v1 CHAR(1);
 BEGIN

@@ -13,6 +13,7 @@ tiene argumentos)
   humanos"
   o Cualquier otro usuario ponemos "usuario no autorizado
 */
+SET SERVEROUTPUT ON;
 
 DECLARE
   usuario VARCHAR2(40);

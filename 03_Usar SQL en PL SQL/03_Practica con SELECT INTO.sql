@@ -3,6 +3,7 @@
 • Crear un bloque PL/SQL que devuelva al salario máximo del departamento 100 y lo deje en una variable denominada salario_maximo y la visualice
 
 */
+SET SERVEROUTPUT ON;
 
 DECLARE
   SALARIO_MAXIMO EMPLOYEES.SALARY%TYPE;

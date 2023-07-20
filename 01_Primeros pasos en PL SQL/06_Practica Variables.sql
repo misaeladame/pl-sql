@@ -28,6 +28,8 @@
  2.- Crear dos vartiables de tipo numérico y visualizar su suma
  */
 
+SET SERVEROUTPUT ON;
+
 DECLARE
   NUM1 NUMBER;
   NUM2 NUMBER;

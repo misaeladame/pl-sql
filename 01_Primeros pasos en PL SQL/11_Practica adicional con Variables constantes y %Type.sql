@@ -6,6 +6,8 @@ Queremos calcular el impuesto de un producto:
   * Hacemos el cálculo y visualizamos el resultado.
 */
 
+SET SERVEROUTPUT ON;
+
 DECLARE
     impuesto        CONSTANT NUMBER := 0.21;
     precio_producto NUMBER(5, 2);

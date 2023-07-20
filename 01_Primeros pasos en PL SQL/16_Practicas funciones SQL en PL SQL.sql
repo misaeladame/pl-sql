@@ -9,6 +9,8 @@
   * Por ejemplo, alberto pérez García debería aprecer --> A.P.G
 */
 
+SET SERVEROUTPUT ON;
+
 DECLARE
   NOMBRE    VARCHAR2(30);
   APELLIDO1 VARCHAR2(30);

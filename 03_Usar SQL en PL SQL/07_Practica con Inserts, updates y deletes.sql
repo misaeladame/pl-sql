@@ -12,6 +12,8 @@ tabla DEPARTMENTS y sumarle uno para la nueva clave.
   cambio debemos usar COMMIT
 */
 
+SET SERVEROUTPUT ON;
+
 DECLARE
   NUEVO_DEPARTAMENTO_ID DEPARTMENTS.DEPARTMENT_ID%TYPE;
 BEGIN
